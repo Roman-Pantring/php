@@ -10,6 +10,8 @@ $img->deleteImg();
 ?>
 ```
 ### HTML
-```php
+```html
+<label for="deleteImg">Delete Image</label><input type="checkbox" name="deleteImg" id="deleteImg"><br>
+
 Diese Datei hochladen: <input name="userfile" type="file" />
 <input type="hidden" name="MAX_FILE_SIZE" value="3000000 " />
